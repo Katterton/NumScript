@@ -1,0 +1,31 @@
+{
+  "name": "numscript",
+  "version": "1.0.0",
+  "description": "NumPy for JS",
+  "main": "index.js",
+  "gypfile": true,
+  "scripts": {
+    "build": "node-gyp --verbose rebuild",
+    "clean": "node-gyp clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Katterton/NumScript.git"
+  },
+  "keywords": [
+    "Numpy"
+  ],
+  "author": "David Fritz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Katterton/NumScript/issues"
+  },
+  "homepage": "https://github.com/Katterton/NumScript#readme",
+  "devDependencies": {
+    "node-gyp": "^9.3.1"
+  },
+  "dependencies": {
+    "cmake-js": "^7.1.1",
+    "node-addon-api": "^5.1.0"
+  }
+}
