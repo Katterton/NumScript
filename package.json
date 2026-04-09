@@ -25,7 +25,7 @@
     "node-gyp": "^9.3.1"
   },
   "dependencies": {
-    "cmake-js": "^7.1.1",
+    "cmake-js": "^7.4.0",
     "node-addon-api": "^5.1.0"
   }
 }
