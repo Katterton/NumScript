@@ -22,10 +22,10 @@
   },
   "homepage": "https://github.com/Katterton/NumScript#readme",
   "devDependencies": {
-    "node-gyp": "^9.3.1"
+    "node-gyp": "^13.0.0"
   },
   "dependencies": {
-    "cmake-js": "^7.1.1",
+    "cmake-js": "^8.0.0",
     "node-addon-api": "^5.1.0"
   }
 }
